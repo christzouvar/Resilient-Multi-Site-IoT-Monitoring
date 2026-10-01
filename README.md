@@ -53,6 +53,20 @@ graph TD
 
 ---
 
+## Hardware
+
+Each edge node consists of a Raspberry Pi running Zigbee2MQTT, a Zigbee USB coordinator, and the household's Zigbee devices.
+
+| Raspberry Pi edge node | Zigbee sensors |
+|:---:|:---:|
+| ![Raspberry Pi edge node](assets/hardware-raspberry-pi.png) | ![Temperature/humidity and motion sensors](assets/hardware-sensors.png) |
+
+| Energy meter with CT clamps | Smart plug |
+|:---:|:---:|
+| ![Three-phase energy meter with current transformers](assets/hardware-energy-meter.png) | ![Zigbee smart plug](assets/hardware-smart-plug.png) |
+
+---
+
 ## Deployment Structure
 
 | Component | Description |
