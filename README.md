@@ -4,6 +4,26 @@ A resilient, secure, and scalable smart home data pipeline designed for multi-ho
 
 > **Note:** This repository is a showcase page. The source code is kept private because it powers a live production deployment. Demo access and a walkthrough are available on request — see [Contact](#contact) below.
 
+## Screenshots
+
+![Household snapshot dashboard](assets/household-snapshot.png)
+
+![Household Montlhy Stats](assets/household-monthly-stats.png)
+
+### Environmental monitoring
+
+![Temperature, humidity, illuminance, and battery](assets/environmental-conditions.png)
+
+### Electrical parameters
+
+![Power, Current](assets/electrical-parameters-1.png)
+
+![Voltage, Power Factor, Frequency](assets/electrical-parameters-2.png)
+
+### Smart plugs stats
+
+![Per-appliance energy consumption and cost](assets/smart-plugs-stats.png)
+
 ---
 
 ## Overview
