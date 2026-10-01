@@ -57,7 +57,7 @@ graph TD
 
 | Component | Description |
 |-----------|-------------|
-| **`central-hub/`** | Central server: TimescaleDB, Grafana, Mosquitto, Python consumer (system service), and backup script. |
+| **`central-hub/`** | Central server: TimescaleDB, Grafana, Mosquitto, Python consumer, and backup script. |
 | **`edge-node/`** | Raspberry Pi edge device: Zigbee2MQTT, local Mosquitto, and Python SQLite fallback. |
 
 ---
