@@ -147,7 +147,7 @@ Both approaches solve the same problem — no data loss during outages. The Pyth
 |---------|-----------|
 | Edge node loses internet | Python fallback writes messages to SQLite; replay when the link returns |
 | Central broker down | Fallback detects the disconnect, caches locally, and replays on reconnect |
-| Central DB down | Consumer reconnects and buffers via MQTT QoS 1 persistent session |
+| Central DB down | Consumer retries the DB connection and processes incoming messages as the DB recovers |
 | Grafana down | Data keeps flowing into TimescaleDB; dashboards recover on restart |
 | Power loss at edge | UPS (optional) keeps the Pi and coordinator alive long enough for battery sensors to report |
 
