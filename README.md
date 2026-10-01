@@ -149,7 +149,7 @@ The tunnel runs as a **host-level systemd service**, not inside Docker. This kee
 
 Cloudflare Access (Zero Trust → Access → Applications) sits in front of the tunnel hostname with an email OTP policy. Only approved email addresses can reach Grafana. Revoking access is done by removing the email from the policy — no changes are needed on the central hub.
 
-![Cloudflare Access login](assets/cloudflare-login.png)
+![Cloudflare Access login](assets/cloudfare-login.png)
 
 Once authenticated, users land on the Grafana login page for their tenant account.
 
