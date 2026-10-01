@@ -59,7 +59,7 @@ Each edge node consists of a Raspberry Pi running Zigbee2MQTT, a Zigbee USB coor
 
 | Raspberry Pi | Zigbee Coordinator | Multisensors | Energy Meter | Smart Plug |
 |:---:|:---:|:---:|:---:|:---:|
-| <img src="assets/raspberry-pi.jpeg" width="180"> | <img src="assets/zigbee-dongle.png" width="180"> | <img src="assets/multisensors.jpeg" width="180"> | <img src="assets/smart-meter.jpg" width="180"> | <img src="assets/smart-plug.jpeg" width="180"> |
+| <img src="assets/raspberry-pi.jpeg" width="180"> | <img src="assets/zigbee-dongle.jpg" width="180"> | <img src="assets/multisensors.jpeg" width="180"> | <img src="assets/smart-meter.jpg" width="180"> | <img src="assets/smart-plug.jpeg" width="180"> |
 | Edge compute node | Zigbee USB coordinator | Temperature, humidity, illuminance & motion | 1-phase energy meter with CT clamps | Smart plug |
 
 ---
